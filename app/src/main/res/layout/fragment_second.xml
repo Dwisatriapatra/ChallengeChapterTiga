@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    tools:ignore="HardcodedText" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCREEN 2"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama"
+        android:id="@+id/input_nama"
+        android:inputType="text"
+        android:textSize="28sp"
+        android:layout_marginHorizontal="8dp"
+        android:padding="4dp"
+        android:importantForAutofill="no"
+        android:layout_above="@+id/gotoscreen3"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_background_edit_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotoscreen3"
+        android:text="Go To Screen 3"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

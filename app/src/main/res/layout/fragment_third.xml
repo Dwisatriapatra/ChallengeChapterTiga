@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment"
+    tools:ignore="HardcodedText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCREEN 3"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output"
+        android:layout_above="@+id/gotoscreen4"
+        android:gravity="center"
+        android:textSize="28sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotoscreen4"
+        android:text="Go To Screen 4"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
